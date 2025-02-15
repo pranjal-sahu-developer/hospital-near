@@ -1,12 +1,12 @@
 import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 const firebaseConfig = {
-  apiKey: 'AIzaSyASm8E_gmpec2MUsNAXg41gmmlkgOBMCO4',
-  authDomain: 'hospital-finder-c0ebe.firebaseapp.com',
-  projectId: 'hospital-finder-c0ebe',
-  storageBucket: 'hospital-finder-c0ebe.firebasestorage.app',
-  messagingSenderId: '220800745817',
-  appId: '1:220800745817:web:0167ac39fc30582a408c48'
+  apiKey: "AIzaSyDXfT7Inj0q77fhGr7gyYobmtZf6kMC6cI",
+  authDomain: "loginauth-9cf67.firebaseapp.com",
+  projectId: "loginauth-9cf67",
+  storageBucket: "loginauth-9cf67.firebasestorage.app",
+  messagingSenderId: "192393796002",
+  appId: "1:192393796002:web:c90682253911d8460d7afb"
 };
 
 // Initialize Firebase

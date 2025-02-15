@@ -20,6 +20,7 @@ import axios from 'axios';
 import SearchIcon from '@mui/icons-material/Search';
 import MedicalServicesIcon from '@mui/icons-material/MedicalServices';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
+import { signOut } from 'firebase/auth';
 
 function App() {
   const [user, setUser] = useState(null);
@@ -241,8 +242,10 @@ function App() {
             sx: { borderRadius: 30, paddingLeft: 2 }
           }}
         />
+         <button onClick={()=> signOut(auth)} style={{width: "30%", height:"20px"}}> Logout</button>
+
         <Chip
-          icon={<LocationOnIcon />}
+         // icon={<LocationOnIcon />}
           label={location ? "Live Location" : "Manual Location"}
           color={location ? "success" : "warning"}
           sx={{ minWidth: 160 }}

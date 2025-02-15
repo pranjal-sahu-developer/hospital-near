@@ -1,7 +1,7 @@
 # Hospital NearMe
 
-Hospital Finder is a React-based web application that allows users to log in via Google authentication, fetch their current location, and display nearby hospitals on an interactive map. 
-\
+Hospital NearMe is a React-based web application that allows users to log in via Google authentication, fetch their current location, and display nearby hospitals on an interactive map. 
+
 ## Features
 
 - **Google Authentication**: Secure login using Google Sign-In.

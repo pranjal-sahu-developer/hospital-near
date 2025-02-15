@@ -179,7 +179,7 @@ function App() {
         }}>
           <MedicalServicesIcon sx={{ fontSize: 60, color: 'primary.main', mb: 2 }} />
           <Typography variant="h4" gutterBottom sx={{ fontWeight: 'bold' }}>
-            Hospital Locator
+            Hospital NearMe
           </Typography>
           <Typography variant="body1" color="text.secondary" sx={{ mb: 3 }}>
             Find nearby medical facilities quickly
